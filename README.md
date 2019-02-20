@@ -34,7 +34,7 @@
 
 #### tests/
 #### webpack.config.js
-#### eslintrc.js
+#### .eslintrc.js
 
 ## Settings
 #### eslint setting

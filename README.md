@@ -1,6 +1,5 @@
 # Vue_Webpack
 ## Install modules
-___
 #### webpack
 * webpack webpack-cli webpack-dev-server
 #### styles
@@ -19,3 +18,20 @@ ___
 #### testing
 * jest jest-webpack
 
+
+## Project structure
+#### config/
+* webpack.production.js
+* webpack.development.js
+* webpack.test.js
+
+#### src/
+* js/
+* less/
+* css/
+* imgs/
+* index.js/
+
+#### tests/
+#### webpack.config.js
+#### eslintrc.js

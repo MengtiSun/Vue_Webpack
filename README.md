@@ -35,3 +35,7 @@
 #### tests/
 #### webpack.config.js
 #### eslintrc.js
+
+## Settings
+#### eslint setting
+* node node_modules/eslint/bin/eslint --init

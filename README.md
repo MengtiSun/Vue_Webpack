@@ -34,8 +34,24 @@
 
 #### tests/
 #### webpack.config.js
-#### .eslintrc.js
+#### eslintrc.js
 
-## Settings
-#### eslint setting
-* node node_modules/eslint/bin/eslint --init
+
+## Project init
+#### init eslint
+./node_modules/.bin/eslint --init
+#### start of project
+webpack
+
+
+## Things to pay attention
+#### lint
+eslint is a loader
+stylelint is a plugin, so it is in plugin. Also need to add it in the package.json
+#### browserslist
+The relationship of options in the list is OR
+#### test
+"test": "jest-webpack"  cannot use --env.test, which will have conflicts with the settings of jest-webpack
+
+#### plugins
+plugins will search for everyting, no matter it is imported or not
